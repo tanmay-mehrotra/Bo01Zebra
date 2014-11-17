@@ -1,0 +1,29 @@
+int i;
+i = 10;
+int k;
+k = 20;
+if( i < 4)
+{
+
+	if(3 < 2)
+	{
+	output("hello");
+	
+	}
+
+	
+	
+
+	else
+	{
+	output("hello");
+
+	}
+
+}
+
+
+else
+{
+output("hello");
+}

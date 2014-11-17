@@ -1,0 +1,25 @@
+bit A,B;
+int i,j,rsize,csize;
+truthtable t[A and B];
+
+kmap k[2][2];
+
+rsize = rowSize(k);
+csize = columnSize(k);
+
+while(i < rsize)
+{
+
+j = 0;
+
+while(j < csize)
+{
+
+k[i][j] = F;
+
+}
+
+}
+
+
+

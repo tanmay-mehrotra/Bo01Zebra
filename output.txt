@@ -1,0 +1,790 @@
+line: 1 col: 1 match: --OutPut--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifierOutPut
+
+line: 1 col: 7 match: --(--
+action [87] { return (new Yytoken("LPAREN")); }
+Text   : LPAREN
+
+line: 1 col: 8 match: --"--
+action [134] { yybegin(STRING); string.setLength(0); }
+line: 1 col: 9 match: --Enter Boolean Expression--
+action [148] { string.append( yytext() ); }
+line: 1 col: 33 match: --"--
+action [147] { yybegin(YYINITIAL);return (new Yytoken(string.toString())); }
+Text   : Enter Boolean Expression
+
+line: 1 col: 34 match: --)--
+action [88] { return (new Yytoken("RPAREN")); }
+Text   : RPAREN
+
+line: 1 col: 35 match: --;--
+action [93] { return (new Yytoken("SEMICOLON")); }
+Text   : SEMICOLON
+
+line: 1 col: 36 match: -- --
+action [141] {  }
+line: 1 col: 37 match: -- --
+action [141] {  }
+line: 1 col: 38 match: -- --
+action [141] {  }
+line: 1 col: 39 match: -- --
+action [141] {  }
+line: 1 col: 40 match: --// similar to print statement
+--
+action [141] {  }
+line: 2 col: 1 match: --
+--
+action [141] {  }
+line: 3 col: 1 match: --/*Console will always return a string so we can typecast it. The user enters the boolean expression he wants to convert to a circuit diagram. For example, consider that he enters "(A and B) or (C and D)" */--
+action [141] {  }
+line: 3 col: 207 match: --
+--
+action [141] {  }
+line: 4 col: 1 match: --
+--
+action [141] {  }
+line: 5 col: 1 match: --Bexp--
+action [64] { return (new Yytoken(yytext())); }
+Text   : Bexp
+
+line: 5 col: 5 match: -- --
+action [141] {  }
+line: 5 col: 6 match: --bexp--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifierbexp
+
+line: 5 col: 10 match: --=--
+action [105] { return (new Yytoken("EQ")); }
+Text   : EQ
+
+line: 5 col: 11 match: --(--
+action [87] { return (new Yytoken("LPAREN")); }
+Text   : LPAREN
+
+line: 5 col: 12 match: --Bexp--
+action [64] { return (new Yytoken(yytext())); }
+Text   : Bexp
+
+line: 5 col: 16 match: --)--
+action [88] { return (new Yytoken("RPAREN")); }
+Text   : RPAREN
+
+line: 5 col: 17 match: --Input--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifierInput
+
+line: 5 col: 22 match: --(--
+action [87] { return (new Yytoken("LPAREN")); }
+Text   : LPAREN
+
+line: 5 col: 23 match: --)--
+action [88] { return (new Yytoken("RPAREN")); }
+Text   : RPAREN
+
+line: 5 col: 24 match: --;--
+action [93] { return (new Yytoken("SEMICOLON")); }
+Text   : SEMICOLON
+
+line: 5 col: 25 match: -- --
+action [141] {  }
+line: 5 col: 26 match: --
+--
+action [141] {  }
+line: 6 col: 1 match: --
+--
+action [141] {  }
+line: 7 col: 1 match: --//counting no. of variables. Hence , for the above boolean expression, the number of variables is 4 (A,B,C,D)
+--
+action [141] {  }
+line: 8 col: 1 match: --int--
+action [64] { return (new Yytoken(yytext())); }
+Text   : int
+
+line: 8 col: 4 match: -- --
+action [141] {  }
+line: 8 col: 5 match: --nVar--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifiernVar
+
+line: 8 col: 9 match: --=--
+action [105] { return (new Yytoken("EQ")); }
+Text   : EQ
+
+line: 8 col: 10 match: --bexp--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifierbexp
+
+line: 8 col: 14 match: --.--
+action [95] { return (new Yytoken("DOT")); }
+Text   : DOT
+
+line: 8 col: 15 match: --cVarInBexp--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifiercVarInBexp
+
+line: 8 col: 25 match: --(--
+action [87] { return (new Yytoken("LPAREN")); }
+Text   : LPAREN
+
+line: 8 col: 26 match: --)--
+action [88] { return (new Yytoken("RPAREN")); }
+Text   : RPAREN
+
+line: 8 col: 27 match: --;--
+action [93] { return (new Yytoken("SEMICOLON")); }
+Text   : SEMICOLON
+
+line: 8 col: 28 match: --
+--
+action [141] {  }
+line: 9 col: 1 match: --
+--
+action [141] {  }
+line: 10 col: 1 match: --/*Truth table is created. Input to the constructor is nVar (which is 4 for this example). The truth table generated will have (nVar+1) columns and (2^nVar) rows. one extra column for the output and all the other columns for the corresponding variables (A,B,C,D). Rows correspond to the 2^4=16 {0,1} combinations of the variables A,B,C,D in the order of their binary value. Row 0 corresponds to A=0,B=0,C=0,D=0 and Row 1 corresponds to A=0,B=0,C=0,D=1 and so on. (Here, output column is left blank).*/--
+action [141] {  }
+line: 10 col: 501 match: --
+--
+action [141] {  }
+line: 11 col: 1 match: --
+--
+action [141] {  }
+line: 12 col: 1 match: --TruthTable--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifierTruthTable
+
+line: 12 col: 11 match: -- --
+action [141] {  }
+line: 12 col: 12 match: --truth_table--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifiertruth_table
+
+line: 12 col: 23 match: --=--
+action [105] { return (new Yytoken("EQ")); }
+Text   : EQ
+
+line: 12 col: 24 match: --new--
+action [64] { return (new Yytoken(yytext())); }
+Text   : new
+
+line: 12 col: 27 match: -- --
+action [141] {  }
+line: 12 col: 28 match: --TruthTable--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifierTruthTable
+
+line: 12 col: 38 match: --(--
+action [87] { return (new Yytoken("LPAREN")); }
+Text   : LPAREN
+
+line: 12 col: 39 match: --nVar--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifiernVar
+
+line: 12 col: 43 match: --)--
+action [88] { return (new Yytoken("RPAREN")); }
+Text   : RPAREN
+
+line: 12 col: 44 match: --;--
+action [93] { return (new Yytoken("SEMICOLON")); }
+Text   : SEMICOLON
+
+line: 12 col: 45 match: --
+--
+action [141] {  }
+line: 13 col: 1 match: --
+--
+action [141] {  }
+line: 14 col: 1 match: --//The output column that is left blank earlier has to be filled in by the user. He only inputs this column values.
+--
+action [141] {  }
+line: 15 col: 1 match: --InspectCode--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifierInspectCode
+
+line: 15 col: 12 match: --{--
+action [89] { return (new Yytoken("LBRACE")); }
+Text   : LBRACE
+
+line: 15 col: 13 match: -- --
+action [141] {  }
+line: 15 col: 14 match: -- --
+action [141] {  }
+line: 15 col: 15 match: -- --
+action [141] {  }
+line: 15 col: 16 match: -- --
+action [141] {  }
+line: 15 col: 17 match: --//same as try catch in java
+--
+action [141] {  }
+line: 16 col: 1 match: --
+--
+action [141] {  }
+line: 17 col: 1 match: --for--
+action [64] { return (new Yytoken(yytext())); }
+Text   : for
+
+line: 17 col: 4 match: --(--
+action [87] { return (new Yytoken("LPAREN")); }
+Text   : LPAREN
+
+line: 17 col: 5 match: --int--
+action [64] { return (new Yytoken(yytext())); }
+Text   : int
+
+line: 17 col: 8 match: -- --
+action [141] {  }
+line: 17 col: 9 match: --i--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifieri
+
+line: 17 col: 10 match: --=--
+action [105] { return (new Yytoken("EQ")); }
+Text   : EQ
+
+line: 17 col: 11 match: --0--
+action [139] { return (new Yytoken("Integer"+yytext())); }
+Text   : Integer0
+
+line: 17 col: 12 match: --;--
+action [93] { return (new Yytoken("SEMICOLON")); }
+Text   : SEMICOLON
+
+line: 17 col: 13 match: --i--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifieri
+
+line: 17 col: 14 match: --<--
+action [107] { return (new Yytoken("LT")); }
+Text   : LT
+
+line: 17 col: 15 match: --truth_table--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifiertruth_table
+
+line: 17 col: 26 match: --.--
+action [95] { return (new Yytoken("DOT")); }
+Text   : DOT
+
+line: 17 col: 27 match: --size--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifiersize
+
+line: 17 col: 31 match: --(--
+action [87] { return (new Yytoken("LPAREN")); }
+Text   : LPAREN
+
+line: 17 col: 32 match: --)--
+action [88] { return (new Yytoken("RPAREN")); }
+Text   : RPAREN
+
+line: 17 col: 33 match: --;--
+action [93] { return (new Yytoken("SEMICOLON")); }
+Text   : SEMICOLON
+
+line: 17 col: 34 match: --i--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifieri
+
+line: 17 col: 35 match: --++--
+action [113] { return (new Yytoken("PLUSPLUS")); }
+Text   : PLUSPLUS
+
+line: 17 col: 37 match: --)--
+action [88] { return (new Yytoken("RPAREN")); }
+Text   : RPAREN
+
+line: 17 col: 38 match: --{--
+action [89] { return (new Yytoken("LBRACE")); }
+Text   : LBRACE
+
+line: 17 col: 39 match: -- --
+action [141] {  }
+line: 17 col: 40 match: -- --
+action [141] {  }
+line: 17 col: 41 match: -- --
+action [141] {  }
+line: 17 col: 42 match: -- --
+action [141] {  }
+line: 17 col: 43 match: --// size() gives the number of rows in the truth_table.
+--
+action [141] {  }
+line: 18 col: 1 match: --
+--
+action [141] {  }
+line: 19 col: 1 match: --truth_table--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifiertruth_table
+
+line: 19 col: 12 match: --[--
+action [91] { return (new Yytoken("LBRACK")); }
+Text   : LBRACK
+
+line: 19 col: 13 match: --i--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifieri
+
+line: 19 col: 14 match: --]--
+action [92] { return (new Yytoken("RBRACK")); }
+Text   : RBRACK
+
+line: 19 col: 15 match: --=--
+action [105] { return (new Yytoken("EQ")); }
+Text   : EQ
+
+line: 19 col: 16 match: --(--
+action [87] { return (new Yytoken("LPAREN")); }
+Text   : LPAREN
+
+line: 19 col: 17 match: --Bit--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifierBit
+
+line: 19 col: 20 match: --)--
+action [88] { return (new Yytoken("RPAREN")); }
+Text   : RPAREN
+
+line: 19 col: 21 match: --Input--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifierInput
+
+line: 19 col: 26 match: --(--
+action [87] { return (new Yytoken("LPAREN")); }
+Text   : LPAREN
+
+line: 19 col: 27 match: --)--
+action [88] { return (new Yytoken("RPAREN")); }
+Text   : RPAREN
+
+line: 19 col: 28 match: --;--
+action [93] { return (new Yytoken("SEMICOLON")); }
+Text   : SEMICOLON
+
+line: 19 col: 29 match: -- --
+action [141] {  }
+line: 19 col: 30 match: -- --
+action [141] {  }
+line: 19 col: 31 match: -- --
+action [141] {  }
+line: 19 col: 32 match: --/* inputting from the user, the output for a corresponding row of the truth table. For example, Output for Row 0 (where A=0,B=0,C=0,D=0) for the inputted boolean expression is 0. User enters this column's value for all rows.*/--
+action [141] {  }
+line: 19 col: 258 match: --
+--
+action [141] {  }
+line: 20 col: 1 match: --
+--
+action [141] {  }
+line: 21 col: 1 match: --}--
+action [90] { return (new Yytoken("RBRACE")); }
+Text   : RBRACE
+
+line: 21 col: 2 match: --
+--
+action [141] {  }
+line: 22 col: 1 match: --
+--
+action [141] {  }
+line: 23 col: 1 match: --}--
+action [90] { return (new Yytoken("RBRACE")); }
+Text   : RBRACE
+
+line: 23 col: 2 match: --SuspectError--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifierSuspectError
+
+line: 23 col: 14 match: --(--
+action [87] { return (new Yytoken("LPAREN")); }
+Text   : LPAREN
+
+line: 23 col: 15 match: --WrongBitValue--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifierWrongBitValue
+
+line: 23 col: 28 match: -- --
+action [141] {  }
+line: 23 col: 29 match: --wbv--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifierwbv
+
+line: 23 col: 32 match: --)--
+action [88] { return (new Yytoken("RPAREN")); }
+Text   : RPAREN
+
+line: 23 col: 33 match: --{--
+action [89] { return (new Yytoken("LBRACE")); }
+Text   : LBRACE
+
+line: 23 col: 34 match: -- --
+action [141] {  }
+line: 23 col: 35 match: -- --
+action [141] {  }
+line: 23 col: 36 match: -- --
+action [141] {  }
+line: 23 col: 37 match: -- --
+action [141] {  }
+line: 23 col: 38 match: -- --
+action [141] {  }
+line: 23 col: 39 match: --//same as try catch in java
+--
+action [141] {  }
+line: 24 col: 1 match: --
+--
+action [141] {  }
+line: 25 col: 1 match: --Output--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifierOutput
+
+line: 25 col: 7 match: --(--
+action [87] { return (new Yytoken("LPAREN")); }
+Text   : LPAREN
+
+line: 25 col: 8 match: --"--
+action [134] { yybegin(STRING); string.setLength(0); }
+line: 25 col: 9 match: --wrong Bit value Entered--
+action [148] { string.append( yytext() ); }
+line: 25 col: 32 match: --"--
+action [147] { yybegin(YYINITIAL);return (new Yytoken(string.toString())); }
+Text   : wrong Bit value Entered
+
+line: 25 col: 33 match: --)--
+action [88] { return (new Yytoken("RPAREN")); }
+Text   : RPAREN
+
+line: 25 col: 34 match: --;--
+action [93] { return (new Yytoken("SEMICOLON")); }
+Text   : SEMICOLON
+
+line: 25 col: 35 match: --
+--
+action [141] {  }
+line: 26 col: 1 match: --Exit--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifierExit
+
+line: 26 col: 5 match: --(--
+action [87] { return (new Yytoken("LPAREN")); }
+Text   : LPAREN
+
+line: 26 col: 6 match: --)--
+action [88] { return (new Yytoken("RPAREN")); }
+Text   : RPAREN
+
+line: 26 col: 7 match: --;--
+action [93] { return (new Yytoken("SEMICOLON")); }
+Text   : SEMICOLON
+
+line: 26 col: 8 match: --
+--
+action [141] {  }
+line: 27 col: 1 match: --
+--
+action [141] {  }
+line: 28 col: 1 match: --}--
+action [90] { return (new Yytoken("RBRACE")); }
+Text   : RBRACE
+
+line: 28 col: 2 match: --
+--
+action [141] {  }
+line: 29 col: 1 match: --
+--
+action [141] {  }
+line: 30 col: 1 match: --//generating Kmap by passing the truth table
+--
+action [141] {  }
+line: 31 col: 1 match: --
+--
+action [141] {  }
+line: 32 col: 1 match: --Kmap--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifierKmap
+
+line: 32 col: 5 match: -- --
+action [141] {  }
+line: 32 col: 6 match: --k_map--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifierk_map
+
+line: 32 col: 11 match: --=--
+action [105] { return (new Yytoken("EQ")); }
+Text   : EQ
+
+line: 32 col: 12 match: --new--
+action [64] { return (new Yytoken(yytext())); }
+Text   : new
+
+line: 32 col: 15 match: -- --
+action [141] {  }
+line: 32 col: 16 match: --Kmap--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifierKmap
+
+line: 32 col: 20 match: --(--
+action [87] { return (new Yytoken("LPAREN")); }
+Text   : LPAREN
+
+line: 32 col: 21 match: --truth_table--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifiertruth_table
+
+line: 32 col: 32 match: --)--
+action [88] { return (new Yytoken("RPAREN")); }
+Text   : RPAREN
+
+line: 32 col: 33 match: --;--
+action [93] { return (new Yytoken("SEMICOLON")); }
+Text   : SEMICOLON
+
+line: 32 col: 34 match: --
+--
+action [141] {  }
+line: 33 col: 1 match: --
+--
+action [141] {  }
+line: 34 col: 1 match: --/*here we can introduce some function like k_map.flip_vertical() or k_map.flip_horizontal(); Since while forming groups in Kmap at times we have to fold the matrix so we can make those functions which would be that difficult as it involves exchanging few columns. For example, if matrix has four columns 1 2 3 4 then order would be 2 1 4 3 this will give user a good feel about the matrix.*/--
+action [141] {  }
+line: 34 col: 392 match: --
+--
+action [141] {  }
+line: 35 col: 1 match: --
+--
+action [141] {  }
+line: 36 col: 1 match: --Kmap--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifierKmap
+
+line: 36 col: 5 match: -- --
+action [141] {  }
+line: 36 col: 6 match: --k_flippedmap--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifierk_flippedmap
+
+line: 36 col: 18 match: --=--
+action [105] { return (new Yytoken("EQ")); }
+Text   : EQ
+
+line: 36 col: 19 match: --k_map--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifierk_map
+
+line: 36 col: 24 match: --.--
+action [95] { return (new Yytoken("DOT")); }
+Text   : DOT
+
+line: 36 col: 25 match: --flip_vertical--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifierflip_vertical
+
+line: 36 col: 38 match: --(--
+action [87] { return (new Yytoken("LPAREN")); }
+Text   : LPAREN
+
+line: 36 col: 39 match: --)--
+action [88] { return (new Yytoken("RPAREN")); }
+Text   : RPAREN
+
+line: 36 col: 40 match: --;--
+action [93] { return (new Yytoken("SEMICOLON")); }
+Text   : SEMICOLON
+
+line: 36 col: 41 match: --
+--
+action [141] {  }
+line: 37 col: 1 match: --
+--
+action [141] {  }
+line: 38 col: 1 match: --// Display the matrix.
+--
+action [141] {  }
+line: 39 col: 1 match: --
+--
+action [141] {  }
+line: 40 col: 1 match: --Output--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifierOutput
+
+line: 40 col: 7 match: --(--
+action [87] { return (new Yytoken("LPAREN")); }
+Text   : LPAREN
+
+line: 40 col: 8 match: --k_flippedmap--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifierk_flippedmap
+
+line: 40 col: 20 match: --)--
+action [88] { return (new Yytoken("RPAREN")); }
+Text   : RPAREN
+
+line: 40 col: 21 match: --;--
+action [93] { return (new Yytoken("SEMICOLON")); }
+Text   : SEMICOLON
+
+line: 40 col: 22 match: --
+--
+action [141] {  }
+line: 41 col: 1 match: --
+--
+action [141] {  }
+line: 42 col: 1 match: --/*now once user sees the output he can mark the groups he think should be there so for the he need an empty array of the same size as that of the k_map so that he can mark corresponding cells in this new k_map like structure - which will further help him in grouping.*/--
+action [141] {  }
+line: 42 col: 270 match: --
+--
+action [141] {  }
+line: 43 col: 1 match: --
+--
+action [141] {  }
+line: 44 col: 1 match: --k_empty--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifierk_empty
+
+line: 44 col: 8 match: --=--
+action [105] { return (new Yytoken("EQ")); }
+Text   : EQ
+
+line: 44 col: 9 match: --k_map--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifierk_map
+
+line: 44 col: 14 match: --.--
+action [95] { return (new Yytoken("DOT")); }
+Text   : DOT
+
+line: 44 col: 15 match: --empty--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifierempty
+
+line: 44 col: 20 match: --(--
+action [87] { return (new Yytoken("LPAREN")); }
+Text   : LPAREN
+
+line: 44 col: 21 match: --)--
+action [88] { return (new Yytoken("RPAREN")); }
+Text   : RPAREN
+
+line: 44 col: 22 match: --;--
+action [93] { return (new Yytoken("SEMICOLON")); }
+Text   : SEMICOLON
+
+line: 44 col: 23 match: --
+--
+action [141] {  }
+line: 45 col: 1 match: --
+--
+action [141] {  }
+line: 46 col: 1 match: --//now he can mark those cells which he think should be in groups 2, 4 or 8(2=pair,4=quad,8=8element grp);
+--
+action [141] {  }
+line: 47 col: 1 match: --
+--
+action [141] {  }
+line: 48 col: 1 match: --k_empty--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifierk_empty
+
+line: 48 col: 8 match: --[--
+action [91] { return (new Yytoken("LBRACK")); }
+Text   : LBRACK
+
+line: 48 col: 9 match: --1--
+action [139] { return (new Yytoken("Integer"+yytext())); }
+Text   : Integer1
+
+line: 48 col: 10 match: --]--
+action [92] { return (new Yytoken("RBRACK")); }
+Text   : RBRACK
+
+line: 48 col: 11 match: --[--
+action [91] { return (new Yytoken("LBRACK")); }
+Text   : LBRACK
+
+line: 48 col: 12 match: --4--
+action [139] { return (new Yytoken("Integer"+yytext())); }
+Text   : Integer4
+
+line: 48 col: 13 match: --]--
+action [92] { return (new Yytoken("RBRACK")); }
+Text   : RBRACK
+
+line: 48 col: 14 match: --=--
+action [105] { return (new Yytoken("EQ")); }
+Text   : EQ
+
+line: 48 col: 15 match: --8--
+action [139] { return (new Yytoken("Integer"+yytext())); }
+Text   : Integer8
+
+line: 48 col: 16 match: --;--
+action [93] { return (new Yytoken("SEMICOLON")); }
+Text   : SEMICOLON
+
+line: 48 col: 17 match: -- --
+action [141] {  }
+line: 48 col: 18 match: -- --
+action [141] {  }
+line: 48 col: 19 match: -- --
+action [141] {  }
+line: 48 col: 20 match: -- --
+action [141] {  }
+line: 48 col: 21 match: --// simple example to show how this can be done
+--
+action [141] {  }
+line: 49 col: 1 match: --
+--
+action [141] {  }
+line: 50 col: 1 match: --//then finally comes compare
+--
+action [141] {  }
+line: 51 col: 1 match: --
+--
+action [141] {  }
+line: 52 col: 1 match: --Boolean--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifierBoolean
+
+line: 52 col: 8 match: -- --
+action [141] {  }
+line: 52 col: 9 match: --b--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifierb
+
+line: 52 col: 10 match: --=--
+action [105] { return (new Yytoken("EQ")); }
+Text   : EQ
+
+line: 52 col: 11 match: --Compare--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : IdentifierCompare
+
+line: 52 col: 18 match: --(--
+action [87] { return (new Yytoken("LPAREN")); }
+Text   : LPAREN
+
+line: 52 col: 19 match: --k_empty--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifierk_empty
+
+line: 52 col: 26 match: --,--
+action [94] { return (new Yytoken("COMMA")); }
+Text   : COMMA
+
+line: 52 col: 27 match: --k_computed--
+action [142] { return (new Yytoken("Identifier"+yytext())); }
+Text   : Identifierk_computed
+
+line: 52 col: 37 match: --)--
+action [88] { return (new Yytoken("RPAREN")); }
+Text   : RPAREN
+
+line: 52 col: 38 match: --;--
+action [93] { return (new Yytoken("SEMICOLON")); }
+Text   : SEMICOLON
+
+line: 52 col: 39 match: -- --
+action [141] {  }
+line: 52 col: 40 match: --//k_computed will me the mimized answer computed by the system.
+--
+action [141] {  }
+line: 53 col: 1 match: <<EOF>>
+action [184] { return (new Yytoken("EOF")); }
+Text   : EOF
+

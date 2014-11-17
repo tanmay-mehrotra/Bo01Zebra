@@ -1,0 +1,32 @@
+func void fu(int p, int q, int r)
+{
+int l,m;
+l=3;
+bit c;
+in(c);
+return;
+}
+
+func bit in(bit a)
+{
+bit z;
+return z;
+}
+
+
+
+int a,b,c;
+b=9;
+if (a>3 && b==9 || c!=3)
+{
+int p,q,r,s,t,u;
+bit k;
+string g;
+p=3;
+output("Testing");
+q=3;
+fu(q,s,t=2);
+k=in(a!=3);
+
+}
+

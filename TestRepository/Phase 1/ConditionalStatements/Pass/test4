@@ -1,0 +1,5 @@
+bit A,B;
+if(A && B)
+{
+output("hello");
+}

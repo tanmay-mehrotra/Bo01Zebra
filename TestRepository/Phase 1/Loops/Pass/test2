@@ -1,0 +1,23 @@
+int sg,dg,dii,si,di;
+int i;
+i=8;
+while(i < 10)
+{
+if (sg==2)
+{
+dg=3;
+
+}
+else
+{
+dii=si;
+}
+
+
+if (di<6)
+{
+int sn;
+sn=9;
+}
+i = i +1;
+}

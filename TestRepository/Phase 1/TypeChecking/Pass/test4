@@ -1,0 +1,6 @@
+bit a;
+while(a)
+{
+output("Boolean value in condition");
+}
+

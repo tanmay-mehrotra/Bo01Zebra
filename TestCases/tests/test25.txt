@@ -1,0 +1,22 @@
+if (a<5)
+{
+	if (b==5)
+	{}
+}
+else
+{
+	do
+	{
+		int a=5,b;
+		bit c=b*9;
+	if (a==2)
+	{}
+	else if (d>=4)
+	{}
+	if (c<3)
+	{}
+	} while (x<10000);
+
+}
+
+function_call();

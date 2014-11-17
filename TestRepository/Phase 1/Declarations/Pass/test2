@@ -1,0 +1,5 @@
+truthtable t[2];
+int a,b,c;
+b=3;
+int d[3];
+

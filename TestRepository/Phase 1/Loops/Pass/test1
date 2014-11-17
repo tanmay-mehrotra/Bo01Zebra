@@ -1,0 +1,36 @@
+int a,b,c,sg,dg,dii,si,s,q,di;
+string g;
+
+if (sg==2)
+{
+dg=3;
+}
+else
+{
+dii=si;
+}
+
+while (s<6 && c==3)
+{
+
+q=3;
+int y,u,k,w;
+w=8;
+}
+
+if (di<6)
+{
+int sn;
+sn=9;
+}
+
+func int add (int a,int b)
+{
+int c;
+c=a+b;
+return c;
+}
+
+
+
+

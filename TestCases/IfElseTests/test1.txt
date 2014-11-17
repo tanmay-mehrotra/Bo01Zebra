@@ -1,0 +1,18 @@
+
+if (a>3 && b==9 || c!=3)
+{
+int a,b,c;
+string g;
+a=3;
+output("Testing");
+b=3;
+fu(f,g,h=2);
+a=in(a!=3);
+x=2+4 != 4;
+}
+func string test()
+{
+int g,h;
+a=3;
+in();
+}

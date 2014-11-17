@@ -1,0 +1,11 @@
+int i;
+i = 2;
+if(i ==0)
+{
+output("hello");
+}
+
+else
+{
+output("hello");
+}

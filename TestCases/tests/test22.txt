@@ -1,0 +1,8 @@
+int b=4;
+bit a=0;
+func bexp snigdha(int a,string b)
+{
+int s,v;
+bit q=digi(a,4);
+}
+bexp x='a and b';

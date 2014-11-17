@@ -1,0 +1,17 @@
+int b;
+b=4;
+bit a;
+a=2;
+func bexp snigdha(int a,string b)
+{
+int s,v;
+bit q;
+q=digi(a,4);
+if ((x==3) && (y>=2))
+{
+return 5;
+}
+}
+
+bexp x;
+x=(a and b);

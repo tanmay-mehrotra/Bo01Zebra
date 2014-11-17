@@ -1,0 +1,13 @@
+func void checker(int a,string b,bexp c,bit d) {
+if(b=="hello") {
+	a=a+1;
+	}
+while(a>1) {
+	b="snig";
+	c=A and B;
+	a=a+1;
+	}
+	return;
+}
+
+

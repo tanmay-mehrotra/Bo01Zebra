@@ -1,0 +1,10 @@
+bexp f;
+void s1;
+f=T and (not F);
+func int s()
+{
+int a;
+return a;
+}
+
+

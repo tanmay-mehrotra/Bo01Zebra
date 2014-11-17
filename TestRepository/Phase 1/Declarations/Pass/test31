@@ -1,0 +1,14 @@
+truthtable t[3];
+bit A ,B;
+truthtable t1[A and B];
+
+bexp be;
+be = A xnor B;
+truthtable t2[be];
+
+int i;
+i = 4;
+
+truthtable t3[i];
+
+

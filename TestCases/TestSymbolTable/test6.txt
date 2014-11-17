@@ -1,0 +1,7 @@
+int a,b,c,d;
+
+if(a==5) {
+		int e,c,g;
+		int k;
+	}
+int h,i;

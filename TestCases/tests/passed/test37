@@ -1,0 +1,6 @@
+if(i< 5)
+	output("Less than 5");
+else if(i > 5 && i < 20)
+	output("Less than 20");
+else
+	output("Greater than 20");

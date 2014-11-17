@@ -1,0 +1,5 @@
+int break;
+
+break = 10;
+
+output(break);

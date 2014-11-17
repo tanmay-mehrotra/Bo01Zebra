@@ -1,0 +1,4 @@
+truthtable t[3];
+int a,b;
+truthtable t1[3];
+t1=t@T;

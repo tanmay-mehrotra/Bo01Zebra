@@ -1,0 +1,25 @@
+b=a and (b or c) nand (c and a);
+a=(not a) and b;
+
+a=2+3;
+b=2-3;
+c=2*3;
+d=2/3;
+e=(2%3);
+f=2+3+4;
+g=2+3-4;
+h=2*(3/4);
+i=2*3*4;
+j=(2/3)/4;
+k=2%3%4;
+l=2%3/4;
+m=2*(3)%4;
+n=2+3/4;
+o=(2+3)-(4*(5%6));
+p=2+(3-4*5/(6%7));
+
+p=(a) or b;
+q=a and (b or c);
+r=a and not b;
+s=(not a) and b;
+w=not ( a xnor b);

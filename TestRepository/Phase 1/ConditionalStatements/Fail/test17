@@ -1,0 +1,10 @@
+int i;
+i =10;
+if( i < 5)
+{
+output("hello");
+}
+else( i > 5)
+{
+output("hello");
+}

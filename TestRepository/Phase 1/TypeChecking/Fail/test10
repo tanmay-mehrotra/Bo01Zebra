@@ -1,0 +1,7 @@
+truthtable t[2];
+t[0] = T;
+t[1] = F;
+t[2] = 2;
+t[3] = F;
+
+output(columnSize(t));

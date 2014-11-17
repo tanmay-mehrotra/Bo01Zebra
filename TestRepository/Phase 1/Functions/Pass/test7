@@ -1,0 +1,12 @@
+int b;
+b=4;
+bit a;
+a=F;
+func bit snigdha(int a,string b)
+{
+int s,v;
+bit q;
+return q;
+}
+
+snigdha(2, "abc");

@@ -1,0 +1,17 @@
+int a;
+string b;
+a=3;
+b="Hello";
+b=3;
+a="q";
+a=4;
+w=5;
+int p,q,b,r,a;
+p=5;
+q="F";
+r=3;
+string x,y,r;
+x=4;
+y="F";
+b=x;
+p=y;

@@ -1,0 +1,4 @@
+string String;
+String = "Hello World!";
+
+output(String);

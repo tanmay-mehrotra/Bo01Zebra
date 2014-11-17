@@ -1,0 +1,7 @@
+func void add (bexp a,int b)
+{
+	int c;
+	c=b;
+	return;
+
+}

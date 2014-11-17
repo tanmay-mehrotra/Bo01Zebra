@@ -1,0 +1,346 @@
+Demo of BoolZebra
+line: 1 col: 1 match: --if--
+action [74] { return Parser.IF; }
+line: 1 col: 3 match: --(--
+action [133] { return (int) yycharat(0); }
+line: 1 col: 4 match: --a--
+action [167] { yyparser.yylval=new ParserVal(yytext());
+				return Parser.IDENTIFIER; }
+line: 1 col: 5 match: --==--
+action [136] { return Parser.DEQ; }
+line: 1 col: 7 match: --3--
+action [163] { yyparser.yylval=new ParserVal(Integer.parseInt(yytext()));
+				return Parser.INTEGERLITERAL; }
+Num LiteralIntegerLiteral@2fdbb1
+Literal added 2
+line: 1 col: 8 match: --)--
+action [133] { return (int) yycharat(0); }
+line: 1 col: 9 match: -- --
+action [166] {  }
+line: 1 col: 10 match: --{--
+action [133] { return (int) yycharat(0); }
+line: 1 col: 11 match: --
+--
+action [166] {  }
+line: 2 col: 1 match: --
+--
+action [166] {  }
+line: 3 col: 1 match: --if--
+action [74] { return Parser.IF; }
+line: 3 col: 3 match: --(--
+action [133] { return (int) yycharat(0); }
+line: 3 col: 4 match: --a--
+action [167] { yyparser.yylval=new ParserVal(yytext());
+				return Parser.IDENTIFIER; }
+line: 3 col: 5 match: --==--
+action [136] { return Parser.DEQ; }
+line: 3 col: 7 match: --2--
+action [163] { yyparser.yylval=new ParserVal(Integer.parseInt(yytext()));
+				return Parser.INTEGERLITERAL; }
+Num LiteralIntegerLiteral@dd8904
+Literal added 3
+line: 3 col: 8 match: --)--
+action [133] { return (int) yycharat(0); }
+Exprlist1
+line: 3 col: 9 match: -- --
+action [166] {  }
+line: 3 col: 10 match: --{--
+action [133] { return (int) yycharat(0); }
+line: 3 col: 11 match: --
+--
+action [166] {  }
+line: 4 col: 1 match: --
+--
+action [166] {  }
+line: 5 col: 1 match: --d--
+action [167] { yyparser.yylval=new ParserVal(yytext());
+				return Parser.IDENTIFIER; }
+line: 5 col: 2 match: --=--
+action [133] { return (int) yycharat(0); }
+line: 5 col: 3 match: --2--
+action [163] { yyparser.yylval=new ParserVal(Integer.parseInt(yytext()));
+				return Parser.INTEGERLITERAL; }
+Num LiteralIntegerLiteral@4e9f7f
+Literal added 3
+line: 5 col: 4 match: --;--
+action [133] { return (int) yycharat(0); }
+Ass found
+line: 5 col: 5 match: --
+--
+action [166] {  }
+line: 6 col: 1 match: --
+--
+action [166] {  }
+line: 7 col: 1 match: --}--
+action [133] { return (int) yycharat(0); }
+line: 7 col: 2 match: --
+--
+action [166] {  }
+line: 8 col: 1 match: --
+--
+action [166] {  }
+line: 9 col: 1 match: --else--
+action [66] { return Parser.ELSE; }
+line: 9 col: 5 match: -- --
+action [166] {  }
+line: 9 col: 6 match: --{--
+action [133] { return (int) yycharat(0); }
+line: 9 col: 7 match: --
+--
+action [166] {  }
+line: 10 col: 1 match: --
+--
+action [166] {  }
+line: 11 col: 1 match: --d--
+action [167] { yyparser.yylval=new ParserVal(yytext());
+				return Parser.IDENTIFIER; }
+line: 11 col: 2 match: --=--
+action [133] { return (int) yycharat(0); }
+line: 11 col: 3 match: --1--
+action [161] { yyparser.yylval =new ParserVal (Integer.parseInt(yytext())); 
+				return Parser.BITLITERAL; }
+Literal added 4
+line: 11 col: 4 match: --;--
+action [133] { return (int) yycharat(0); }
+Ass found
+line: 11 col: 5 match: --
+--
+action [166] {  }
+line: 12 col: 1 match: --
+--
+action [166] {  }
+line: 13 col: 1 match: --}--
+action [133] { return (int) yycharat(0); }
+Size of exprlist:2and of exprlist10
+Size of exprlist:2and of exprlist10
+To be removed index1
+Size of exprlist:1and of exprlist10
+line: 13 col: 2 match: --
+--
+action [166] {  }
+line: 14 col: 1 match: --
+--
+action [166] {  }
+line: 15 col: 1 match: --if--
+action [74] { return Parser.IF; }
+line: 15 col: 3 match: --(--
+action [133] { return (int) yycharat(0); }
+line: 15 col: 4 match: --a--
+action [167] { yyparser.yylval=new ParserVal(yytext());
+				return Parser.IDENTIFIER; }
+line: 15 col: 5 match: --&--
+action [133] { return (int) yycharat(0); }
+line: 15 col: 6 match: --1--
+action [161] { yyparser.yylval =new ParserVal (Integer.parseInt(yytext())); 
+				return Parser.BITLITERAL; }
+Literal added 6
+line: 15 col: 7 match: --)--
+action [133] { return (int) yycharat(0); }
+Exprlist1
+line: 15 col: 8 match: -- --
+action [166] {  }
+line: 15 col: 9 match: --{--
+action [133] { return (int) yycharat(0); }
+line: 15 col: 10 match: --
+--
+action [166] {  }
+line: 16 col: 1 match: --
+--
+action [166] {  }
+line: 17 col: 1 match: --d--
+action [167] { yyparser.yylval=new ParserVal(yytext());
+				return Parser.IDENTIFIER; }
+line: 17 col: 2 match: --=--
+action [133] { return (int) yycharat(0); }
+line: 17 col: 3 match: --2--
+action [163] { yyparser.yylval=new ParserVal(Integer.parseInt(yytext()));
+				return Parser.INTEGERLITERAL; }
+Num LiteralIntegerLiteral@1c97c3e
+Literal added 6
+line: 17 col: 4 match: --;--
+action [133] { return (int) yycharat(0); }
+Ass found
+line: 17 col: 5 match: --
+--
+action [166] {  }
+line: 18 col: 1 match: --
+--
+action [166] {  }
+line: 19 col: 1 match: --if--
+action [74] { return Parser.IF; }
+line: 19 col: 3 match: --(--
+action [133] { return (int) yycharat(0); }
+line: 19 col: 4 match: --a--
+action [167] { yyparser.yylval=new ParserVal(yytext());
+				return Parser.IDENTIFIER; }
+line: 19 col: 5 match: --==--
+action [136] { return Parser.DEQ; }
+line: 19 col: 7 match: --6--
+action [163] { yyparser.yylval=new ParserVal(Integer.parseInt(yytext()));
+				return Parser.INTEGERLITERAL; }
+Num LiteralIntegerLiteral@fbf04a
+Literal added 8
+line: 19 col: 8 match: --)--
+action [133] { return (int) yycharat(0); }
+Exprlist1
+line: 19 col: 9 match: -- --
+action [166] {  }
+line: 19 col: 10 match: --{--
+action [133] { return (int) yycharat(0); }
+line: 19 col: 11 match: --
+--
+action [166] {  }
+line: 20 col: 1 match: --
+--
+action [166] {  }
+line: 21 col: 1 match: --d--
+action [167] { yyparser.yylval=new ParserVal(yytext());
+				return Parser.IDENTIFIER; }
+line: 21 col: 2 match: --=--
+action [133] { return (int) yycharat(0); }
+line: 21 col: 3 match: --3--
+action [163] { yyparser.yylval=new ParserVal(Integer.parseInt(yytext()));
+				return Parser.INTEGERLITERAL; }
+Num LiteralIntegerLiteral@5cb0bb
+Literal added 8
+line: 21 col: 4 match: --;--
+action [133] { return (int) yycharat(0); }
+Ass found
+line: 21 col: 5 match: --
+--
+action [166] {  }
+line: 22 col: 1 match: --
+--
+action [166] {  }
+line: 23 col: 1 match: --}--
+action [133] { return (int) yycharat(0); }
+line: 23 col: 2 match: --
+--
+action [166] {  }
+line: 24 col: 1 match: --
+--
+action [166] {  }
+line: 25 col: 1 match: --else--
+action [66] { return Parser.ELSE; }
+line: 25 col: 5 match: -- --
+action [166] {  }
+line: 25 col: 6 match: --{--
+action [133] { return (int) yycharat(0); }
+line: 25 col: 7 match: --
+--
+action [166] {  }
+line: 26 col: 1 match: --
+--
+action [166] {  }
+line: 27 col: 1 match: --d--
+action [167] { yyparser.yylval=new ParserVal(yytext());
+				return Parser.IDENTIFIER; }
+line: 27 col: 2 match: --=--
+action [133] { return (int) yycharat(0); }
+line: 27 col: 3 match: --4--
+action [163] { yyparser.yylval=new ParserVal(Integer.parseInt(yytext()));
+				return Parser.INTEGERLITERAL; }
+Num LiteralIntegerLiteral@156f770
+Literal added 9
+line: 27 col: 4 match: --;--
+action [133] { return (int) yycharat(0); }
+Ass found
+line: 27 col: 5 match: --
+--
+action [166] {  }
+line: 28 col: 1 match: --
+--
+action [166] {  }
+line: 29 col: 1 match: --}--
+action [133] { return (int) yycharat(0); }
+Size of exprlist:3and of exprlist10
+Size of exprlist:3and of exprlist10
+To be removed index2
+Size of exprlist:2and of exprlist10
+line: 29 col: 2 match: --
+--
+action [166] {  }
+line: 30 col: 1 match: --
+--
+action [166] {  }
+line: 31 col: 1 match: --}--
+action [133] { return (int) yycharat(0); }
+line: 31 col: 2 match: --
+--
+action [166] {  }
+line: 32 col: 1 match: --
+--
+action [166] {  }
+line: 33 col: 1 match: --if--
+action [74] { return Parser.IF; }
+Size of exprlist:2and of exprlist10
+To be removed index1
+Size of exprlist:1and of exprlist10
+line: 33 col: 3 match: --(--
+action [133] { return (int) yycharat(0); }
+line: 33 col: 4 match: --a--
+action [167] { yyparser.yylval=new ParserVal(yytext());
+				return Parser.IDENTIFIER; }
+line: 33 col: 5 match: --==--
+action [136] { return Parser.DEQ; }
+line: 33 col: 7 match: --0--
+action [161] { yyparser.yylval =new ParserVal (Integer.parseInt(yytext())); 
+				return Parser.BITLITERAL; }
+Literal added 11
+line: 33 col: 8 match: --)--
+action [133] { return (int) yycharat(0); }
+Exprlist1
+line: 33 col: 9 match: -- --
+action [166] {  }
+line: 33 col: 10 match: --{--
+action [133] { return (int) yycharat(0); }
+line: 33 col: 11 match: --
+--
+action [166] {  }
+line: 34 col: 1 match: --
+--
+action [166] {  }
+line: 35 col: 1 match: --d--
+action [167] { yyparser.yylval=new ParserVal(yytext());
+				return Parser.IDENTIFIER; }
+line: 35 col: 2 match: --=--
+action [133] { return (int) yycharat(0); }
+line: 35 col: 3 match: --5--
+action [163] { yyparser.yylval=new ParserVal(Integer.parseInt(yytext()));
+				return Parser.INTEGERLITERAL; }
+Num LiteralIntegerLiteral@14f1c67
+Literal added 11
+line: 35 col: 4 match: --;--
+action [133] { return (int) yycharat(0); }
+Ass found
+line: 35 col: 5 match: --
+--
+action [166] {  }
+line: 36 col: 1 match: --
+--
+action [166] {  }
+line: 37 col: 1 match: --}--
+action [133] { return (int) yycharat(0); }
+line: 37 col: 2 match: --
+--
+action [166] {  }
+line: 38 col: 1 match: --
+--
+action [166] {  }
+line: 39 col: 1 match: --}--
+action [133] { return (int) yycharat(0); }
+Size of exprlist:2and of exprlist10
+To be removed index1
+Size of exprlist:1and of exprlist10
+line: 39 col: 2 match: --
+--
+action [166] {  }
+Size of exprlist:1and of exprlist10
+To be removed index0
+Size of exprlist:0and of exprlist10
+Identifier Print
+Identifier Print
+Identifier Print
+Identifier Print
+Identifier Print
+Identifier Print

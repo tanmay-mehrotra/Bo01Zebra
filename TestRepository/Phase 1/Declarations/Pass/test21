@@ -1,0 +1,5 @@
+truthtable t[2];
+int a,b,x;
+a=b+2*x;
+truthtable t1[2];
+t1=t@T;

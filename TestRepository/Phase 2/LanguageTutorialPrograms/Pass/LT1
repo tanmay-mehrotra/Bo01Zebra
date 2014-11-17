@@ -1,0 +1,6 @@
+bexp be; 
+bit H,G,I,K;
+be = H and (G nor I) xor not K;
+truthtable t1[be];
+output(t1);
+

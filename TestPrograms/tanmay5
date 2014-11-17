@@ -1,0 +1,12 @@
+truthtable t[3];
+int i;
+int tsize;
+tsize=size(t);
+kmap k_map;
+while (i < tsize) 
+{
+  t[i] = input();
+  i=i+1;
+}
+k_map = (kmap)t;
+output(k_map);

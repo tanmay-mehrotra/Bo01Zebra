@@ -1,0 +1,9 @@
+
+void s;
+f=T and (not F);
+func int s()
+{
+int a;
+}
+
+

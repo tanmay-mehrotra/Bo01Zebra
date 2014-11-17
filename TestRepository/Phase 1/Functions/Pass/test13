@@ -1,0 +1,11 @@
+int b;
+b=4;
+bit a,c;
+a=F;
+func truthtable snigdha(bexp b)
+{
+truthtable t[b];
+return t;
+}
+bexp x;
+x=(a and c);

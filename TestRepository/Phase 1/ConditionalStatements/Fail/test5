@@ -1,0 +1,10 @@
+if(0)
+{
+output("hello");
+}
+else
+{
+output("hello");
+}
+
+

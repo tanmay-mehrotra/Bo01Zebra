@@ -1,0 +1,28 @@
+int b,a;
+func string add(int a,int b)
+{
+int c;
+c=a+b;
+return c;
+}
+ b=4;
+int f;
+add(1,4);
+
+if (a+4)
+{
+output("yay error");
+}
+minus(2);
+
+func void minus(int a)
+{
+return 3;
+}
+ truthtable t[3];
+ truthtable t1[4];
+t1=t@T;
+t["r"]=F;
+
+truthtable t2["r"];
+

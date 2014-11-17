@@ -1,0 +1,8 @@
+string s;
+bexp be1;
+
+s = "Hi";
+be1 = A or B;
+
+kmap k[s][be1];
+

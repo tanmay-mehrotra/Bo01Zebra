@@ -1,0 +1,9 @@
+bit a,b;
+func kmap snigdha(int a,string b)
+{
+output("hello");
+kmap k[2][4];
+return k;
+}
+bexp x;
+x=(a and b);

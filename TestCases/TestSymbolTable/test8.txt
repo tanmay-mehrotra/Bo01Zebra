@@ -1,0 +1,11 @@
+int a[10];
+
+while (e>2)
+{
+string d[2];
+truthtable f[5];
+kmap k,h;
+}
+
+
+

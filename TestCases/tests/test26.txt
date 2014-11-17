@@ -1,0 +1,14 @@
+int z=d+c%6/a-3;
+int v=z*2;
+bit a=v | n;
+bexp n=m & e;
+bexp n=m && e;
+bexp n=m || e;
+bexp n=m ^ e;
+string f=!(r<6);
+if (a!=b)
+{
+if (c<=+5 || f>6 && q>=-1 || !(r<5))
+{}
+}
+

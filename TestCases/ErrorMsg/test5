@@ -1,0 +1,28 @@
+int x;
+x =10;
+output("x in main "+x);
+if(T)
+{
+int x;
+x= 30;
+output("x in if "+x);
+
+if(T)
+
+{
+output("x in nested if before its own x "+x);
+int x;
+x = 40;
+output("x in nested if after its own declaration "+x);
+}
+
+}
+else
+{
+x = 30;
+output("x in else "+x);
+
+}
+
+output("x in main again "+x);
+

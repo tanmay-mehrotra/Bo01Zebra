@@ -1,0 +1,15 @@
+func int add(int a,string b,int c)
+{
+int x,f,g;
+string s;
+string p,q,r;
+return p+t7/6-o;
+}
+
+func int add(int a,string b,int c)
+{
+int t[3];
+string p,q,r;
+fu(4,6);
+return ds(r,5);
+}

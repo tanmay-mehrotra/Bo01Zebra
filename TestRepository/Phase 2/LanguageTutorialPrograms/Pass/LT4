@@ -1,0 +1,5 @@
+bexp be;
+bit K,G,H;
+be = K and G or H;
+kmap k_map[be];
+output(k_map);

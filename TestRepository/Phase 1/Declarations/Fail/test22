@@ -1,0 +1,6 @@
+bexp be;
+
+string s;
+s = "A and B or C";
+
+kmap k[s];

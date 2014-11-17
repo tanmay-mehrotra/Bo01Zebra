@@ -1,0 +1,7 @@
+string s;
+s="Hello" ;
+string s1;
+s1="World" ;
+string s2;
+s2=s + s1 + "Concatenated" ;
+

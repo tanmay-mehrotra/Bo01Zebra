@@ -1,0 +1,6 @@
+int b=4;
+bit a=0;
+func bexp snigdha(int a,string b)
+{
+}
+bexp x='a and b';

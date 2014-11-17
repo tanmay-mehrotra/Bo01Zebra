@@ -1,0 +1,10 @@
+int i;
+i = 22;
+if(i < 2)
+{
+output("hello");
+}
+else(i <10)
+{
+output("hello");
+}

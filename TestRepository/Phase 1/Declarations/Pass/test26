@@ -1,0 +1,14 @@
+bexp be;
+bit A,B;
+be = A and B;
+truthtable t[be];
+
+kmap k;
+k = (kmap)t;
+
+kmap k1[2][2];
+
+
+kmap k2[be];
+
+kmap k3[A and B];

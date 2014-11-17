@@ -1,0 +1,36 @@
+bexp be;
+bit A,B,C; 
+be = A nand (B or not C) nor B xor C; 
+kmap k_map[2][4];
+int rsize;
+int csize;
+rsize=rowSize(k_map);
+csize=columnSize(k_map);
+output(rsize);
+output(csize);
+int i;
+int j;
+while(i<rsize){
+  
+  j=0;
+  
+  while(j<csize){
+   bit b;
+   b=input();  
+   k_map[i][j]=b;   
+
+   j=j+1;
+  }
+  i=i+1;
+}
+
+
+//COMPARING THE TWO KMAPS
+bit b;
+b=compare(k_map,be);
+if(b==true) {
+output("Your Kmap is correct");
+}
+else {
+output("Your Kmap is incorrect");
+}

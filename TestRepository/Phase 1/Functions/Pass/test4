@@ -1,0 +1,8 @@
+func bexp snigdha()
+{
+output("hello");
+bexp b;
+bit a,c;
+b = (a and c);
+return b;
+}

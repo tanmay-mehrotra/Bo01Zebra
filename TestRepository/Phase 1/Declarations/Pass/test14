@@ -1,0 +1,8 @@
+string s;
+string s2;
+string s3;
+string s4;
+s="HelloWorld";
+s2="Digvijay";
+s3="Snigdha";
+s4=s2;

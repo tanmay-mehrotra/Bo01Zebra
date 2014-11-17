@@ -1,0 +1,14 @@
+truthtable t[2];
+t[0] = T;
+t[1] = T;
+t[2] = T;
+t[3] = F;
+string a;
+a="A";
+string b[2];
+b[0] = "A";
+b[1] = "B";
+string c;
+c=b.t;
+string d;
+

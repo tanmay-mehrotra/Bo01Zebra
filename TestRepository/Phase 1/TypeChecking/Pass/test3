@@ -1,0 +1,8 @@
+func truthtable add (kmap a,bexp b)
+{
+	bit m;
+	m = compare(a,b);
+	truthtable t[b];
+	return t;
+
+}

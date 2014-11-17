@@ -1,0 +1,6 @@
+int i;
+i = 4;
+if(i < 5)
+	output("Nandita");
+else
+	output("Snigdha");

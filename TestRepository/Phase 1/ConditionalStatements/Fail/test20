@@ -1,0 +1,15 @@
+int i;
+i = "nandita";
+if(i < 6)
+{
+output("hello");
+}
+else
+{
+
+if(i < 8)
+{
+output("hello");
+}
+
+}

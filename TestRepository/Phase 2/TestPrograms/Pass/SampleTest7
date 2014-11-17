@@ -1,0 +1,18 @@
+bexp be;
+int i;
+bit A, B, C,D;
+truthtable t[2];
+truthtable t1[2];
+be = ( C and D );
+i = countVariables(be);
+string arr[i];
+arr = nameOfVariables(be);
+t[0] = F;
+t[1] = T;
+t[2] =F;
+t[3] =T;
+bit m;
+t1 = t @T;
+string st;
+st = arr.t;
+output(st);

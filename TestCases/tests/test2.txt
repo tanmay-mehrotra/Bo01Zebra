@@ -1,0 +1,52 @@
+OutPut("Enter Boolean Expression");    // similar to print statement
+
+/*Console will always return a string so we can typecast it. The user enters the boolean expression he wants to convert to a circuit diagram. For example, consider that he enters "(A and B) or (C and D)" */
+
+Bexp bexp=(Bexp)Input(); 
+
+//counting no. of variables. Hence , for the above boolean expression, the number of variables is 4 (A,B,C,D)
+int nVar=bexp.cVarInBexp();
+
+/*Truth table is created. Input to the constructor is nVar (which is 4 for this example). The truth table generated will have (nVar+1) columns and (2^nVar) rows. one extra column for the output and all the other columns for the corresponding variables (A,B,C,D). Rows correspond to the 2^4=16 {0,1} combinations of the variables A,B,C,D in the order of their binary value. Row 0 corresponds to A=0,B=0,C=0,D=0 and Row 1 corresponds to A=0,B=0,C=0,D=1 and so on. (Here, output column is left blank).*/
+
+TruthTable truth_table=new TruthTable(nVar);
+
+//The output column that is left blank earlier has to be filled in by the user. He only inputs this column values.
+InspectCode{    //same as try catch in java
+
+for(int i=0;i<truth_table.size();i++){    // size() gives the number of rows in the truth_table.
+
+truth_table[i]=(Bit)Input();   /* inputting from the user, the output for a corresponding row of the truth table. For example, Output for Row 0 (where A=0,B=0,C=0,D=0) for the inputted boolean expression is 0. User enters this column's value for all rows.*/
+
+}
+
+}SuspectError(WrongBitValue wbv){     //same as try catch in java
+
+Output("wrong Bit value Entered");
+Exit();
+
+}
+
+//generating Kmap by passing the truth table
+
+Kmap k_map=new Kmap(truth_table);
+
+/*here we can introduce some function like k_map.flip_vertical() or k_map.flip_horizontal(); Since while forming groups in Kmap at times we have to fold the matrix so we can make those functions which would be that difficult as it involves exchanging few columns. For example, if matrix has four columns 1 2 3 4 then order would be 2 1 4 3 this will give user a good feel about the matrix.*/
+
+Kmap k_flippedmap=k_map.flip_vertical();
+
+// Display the matrix.
+
+Output(k_flippedmap);
+
+/*now once user sees the output he can mark the groups he think should be there so for the he need an empty array of the same size as that of the k_map so that he can mark corresponding cells in this new k_map like structure - which will further help him in grouping.*/
+
+k_empty=k_map.empty();
+
+//now he can mark those cells which he think should be in groups 2, 4 or 8(2=pair,4=quad,8=8element grp);
+
+k_empty[1][4]=8;    // simple example to show how this can be done
+
+//then finally comes compare
+
+Boolean b=Compare(k_empty,k_computed); //k_computed will me the mimized answer computed by the system.

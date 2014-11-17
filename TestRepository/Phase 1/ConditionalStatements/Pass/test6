@@ -1,0 +1,9 @@
+int i;
+if(i < 2)
+{
+output("hello");
+}
+else
+{
+output("hello");
+}

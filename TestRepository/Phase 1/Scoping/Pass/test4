@@ -1,0 +1,33 @@
+int x;
+x = 10;
+
+func void f()
+{
+int x;
+
+x = 20;
+
+output("x in f "+x);
+
+g();
+return;
+}
+
+func void g()
+{
+
+int x;
+x = 40;
+output("x in g "+x);
+return;
+}
+
+output("x in main "+x);
+f();
+output("x in main after f before g "+x);
+
+g();
+output("x in main after g "+x);
+
+
+

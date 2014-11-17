@@ -1,0 +1,19 @@
+int a;
+a = 3;
+while(a < 3)
+{
+bit b;
+b = T;
+if(b)
+{
+output("hello");
+
+while(a < 3)
+{
+
+output("hi");
+
+}
+
+}
+

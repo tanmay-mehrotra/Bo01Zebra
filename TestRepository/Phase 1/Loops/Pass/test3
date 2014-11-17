@@ -1,0 +1,36 @@
+int a,b,c,s;
+string g;
+
+if (a==2)
+{
+b=3;
+
+}
+else
+{
+g="Nandita";
+}
+
+while (s<6 && c==3)
+{
+string f;
+int q;
+q=3;
+int y,u,k,w;
+w=8;
+a=call();
+}
+
+
+func int add (int a,int b)
+{
+int c;
+c=a+b;
+return c;
+}
+
+func int call ()
+{
+return 1;
+}
+

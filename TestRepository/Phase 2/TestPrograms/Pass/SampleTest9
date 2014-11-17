@@ -1,0 +1,26 @@
+int a;
+truthtable t[3];
+bit A,B,C;
+bexp be;
+be = ((A and B ) and C);
+a = countVariables(be);
+int i;
+i = 0;
+while (i < 8)
+{
+t[i] = T;
+i = i+1;
+}
+//output(t);
+bit m;
+kmap k_map[2][4];
+k_map[0][0] = T;
+k_map[0][1] = F;
+k_map[0][2] = T;
+k_map[0][3] = T;
+k_map[1][0] = T;
+k_map[1][1] = F;
+k_map[1][2] = T;
+k_map[1][3] = T;
+m = compare(k_map, be);
+

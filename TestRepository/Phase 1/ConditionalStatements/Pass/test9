@@ -1,0 +1,11 @@
+int i;
+i = 20;
+if(i< 5)
+{
+	output("Less than 5");
+}
+
+else
+{
+	output("Greater than 20");
+}

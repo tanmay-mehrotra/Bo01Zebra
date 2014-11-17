@@ -1,0 +1,9 @@
+bit A, B;
+truthtable t[A and B];
+truthtable th[2];
+th=t@T;
+string s[2];
+s[0] = "A";
+s[1] = "B";
+string bexpression;
+bexpression=s.th;

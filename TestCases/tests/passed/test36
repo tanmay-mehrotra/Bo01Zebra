@@ -1,0 +1,3 @@
+do
+	output("Tanmay");
+while(i < 0);

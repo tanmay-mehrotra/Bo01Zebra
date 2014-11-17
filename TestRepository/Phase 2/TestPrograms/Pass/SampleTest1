@@ -1,0 +1,15 @@
+int a;
+truthtable t[3];
+bit A,B,C;
+bexp be;
+be = (A and B and C);
+a = countVariables(be);
+int i;
+i = 0;
+while (i < 8)
+{
+t[i] = T;
+i = i+1;
+}
+output(t);
+

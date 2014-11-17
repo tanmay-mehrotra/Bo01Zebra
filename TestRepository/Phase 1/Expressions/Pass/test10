@@ -1,0 +1,5 @@
+bexp w;
+bit a,b,c;
+
+w=(not (b));
+w= c xnor (a and b);

@@ -1,0 +1,4 @@
+truthtable th[3];
+truthtable th1[2];
+
+th1=th@T;

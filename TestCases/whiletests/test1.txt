@@ -1,0 +1,46 @@
+int a,b,c;
+string g;
+
+if (sg==2)
+{
+dg=3;
+df(5,7);
+}
+else
+{
+dii=si;
+}
+
+while (s<6 && c==3)
+{
+string a,f;
+q=3;
+int y,u,k;
+w=8;
+pot(3,7);
+a=call();
+break;
+}
+
+if (di<6)
+{
+a(7,8);
+sn=9;
+}
+
+func int add (int a,int b)
+{
+int c;
+c=a+b;
+}
+do
+{
+int a;
+df(d,h);
+a=3;
+continue;
+} while(r!=3 || 4<3 && 2>=4);
+ 
+
+
+

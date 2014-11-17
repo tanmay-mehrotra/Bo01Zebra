@@ -1,0 +1,8 @@
+bexp static;
+bit A, B;
+
+static = A xor B;
+
+truthtable double[static];
+
+output(size(double));

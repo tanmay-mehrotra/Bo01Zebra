@@ -1,0 +1,11 @@
+int i;
+i =20;
+if(i = 10);
+{
+output("hello");
+}
+
+if(i < -1);
+{
+output("hello");
+}

@@ -1,0 +1,29 @@
+int a,b,c,d,x;
+a = 8;
+b =10;
+c = 20;
+d =3;
+x = 100000;
+if (a<5)
+{
+	if (b==5)
+	{
+	output("hello");
+	}
+}
+else
+{
+	
+	if (a==2)
+	{
+	output("hello");
+	}
+	if (c<3)
+	{
+	output("hello");
+	}
+	
+
+}
+
+//function_call();

@@ -1,0 +1,16 @@
+int a;
+int b;
+
+while(a>5) {
+		int c;
+		c=c+1;
+			if(c==1) {
+				int d;
+				d=1;
+				}
+			else {
+				int d;
+				d=3;
+			    }
+	}
+

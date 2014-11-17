@@ -1,0 +1,25 @@
+truthtable t1[3];
+int tsize;
+tsize=size(t1);
+int i;
+
+while(i<tsize){
+
+t1[i]=input();
+i=i+1;
+}
+
+
+output(t1);
+truthtable t2[3];
+string arr[3];
+arr[0]="C";
+arr[1]="T";
+arr[2]="M";
+
+t2 = t1@T;
+output(t2);
+string sop;
+sop = arr.t2;
+output(sop);
+

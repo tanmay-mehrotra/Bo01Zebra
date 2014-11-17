@@ -1,0 +1,32 @@
+while (i<3)
+{
+a=2+3;
+outer(4);
+int a,b;
+if (a==2)
+{
+int d,c;
+inner("inner");
+while(d!=3) {
+output('good');
+}
+}
+}
+
+if (i<4)
+{
+a=3;
+int v;
+if (a==4)
+{
+b=4;
+if(d!=6)
+ {
+s=3;
+if (u=="Waste")
+{
+output("d");
+}
+}
+}
+}

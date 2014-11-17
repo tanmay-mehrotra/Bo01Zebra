@@ -1,0 +1,3 @@
+string s;
+s = "ABC";
+truthtable t[s];

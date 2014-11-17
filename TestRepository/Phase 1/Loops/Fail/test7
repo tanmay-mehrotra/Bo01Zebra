@@ -1,0 +1,4 @@
+do{
+output("hello");
+}
+while (x = NOT A);

@@ -1,0 +1,10 @@
+truthtable t[2];
+int i,sizeT;
+sizeT = size(t);
+i=0;
+while(i < sizeT)
+{
+//The values that can be entered are T and F
+t[i] = T;
+i = i+1;
+}

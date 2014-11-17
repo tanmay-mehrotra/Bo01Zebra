@@ -1,0 +1,4 @@
+func bexp snigdha()
+{
+output("hello");
+}

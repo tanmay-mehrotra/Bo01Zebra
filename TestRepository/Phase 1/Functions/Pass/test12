@@ -1,0 +1,8 @@
+func kmap snigdha(bexp b)
+{
+output("b");
+truthtable t[2];
+kmap k;
+k = (kmap)t;
+return k;
+}

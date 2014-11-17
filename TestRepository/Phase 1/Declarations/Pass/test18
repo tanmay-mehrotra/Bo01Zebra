@@ -1,0 +1,5 @@
+bexp b,c;
+bit P,Q,R;
+b= ((P and Q) or R);
+c= Q xnor R;
+

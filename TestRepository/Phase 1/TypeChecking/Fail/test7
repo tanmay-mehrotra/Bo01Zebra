@@ -1,0 +1,7 @@
+string s;
+
+s ="A and B";
+
+truthtable t[s];
+
+output(t);

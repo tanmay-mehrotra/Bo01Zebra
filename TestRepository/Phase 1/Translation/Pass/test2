@@ -1,0 +1,9 @@
+truthtable for[2];
+for[0] = F;
+for[1] = T;
+for[2] = F;
+for[3] = T;
+
+output (size(for));
+
+

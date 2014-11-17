@@ -1,0 +1,1 @@
+string s="Hello World",s2="Digvijay",s3="Snigdha",s4=s1;

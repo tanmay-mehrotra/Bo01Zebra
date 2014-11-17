@@ -1,0 +1,26 @@
+if (a<3)
+{
+a=2;
+w(2,6);
+int a,b,c;
+string g;
+a=3;
+output("Testing");
+
+}
+if (e!=4)
+{
+output("Hello");
+}
+else
+{
+w=2;
+out(g,4);
+string s;
+int a,g;
+b=3;
+fu(f,g,h=2);
+a=in(a!=3);
+x=2+4 != 4;
+}
+

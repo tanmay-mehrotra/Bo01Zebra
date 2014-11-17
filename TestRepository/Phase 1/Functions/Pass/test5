@@ -1,0 +1,8 @@
+func bexp snigdha(kmap k,truthtable d)
+{
+bit A,B;
+output("hello");
+bexp b;
+b = (A and B);
+return b;
+}

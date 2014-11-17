@@ -1,0 +1,33 @@
+func void snigdha(int a,string b)
+{
+output("hello");
+return;
+}
+
+int a,b,c,d,x;
+if (a<5)
+{
+	if (b==5)
+	{
+	output("hello");
+	}
+}
+else
+{
+		
+		a = 5;
+		c = 9;
+		c = b*9;
+		if (a==2)
+		{
+			output("hello");
+		}
+		
+		if (c<3)
+		{
+			output("hello");
+		}
+	
+}
+
+snigdha(a , "hi");

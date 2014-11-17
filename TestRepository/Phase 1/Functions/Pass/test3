@@ -1,0 +1,32 @@
+func void fu(int a, int b, int c)
+{
+int g,h;
+a=3;
+return;
+}
+
+int a,e,w,b,f;
+a = 2;
+if (a<3)
+{
+a=2;
+int c;
+string g;
+a=3;
+output("Testing");
+
+}
+if (e!=4)
+{
+output("Hello");
+}
+else
+{
+w=2;
+string s;
+int g,h;
+b=3;
+fu(f,g,h=2);
+
+}
+

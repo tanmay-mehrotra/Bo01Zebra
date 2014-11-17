@@ -1,0 +1,14 @@
+int i;
+i = 2;
+if(i =0)
+{
+output("hello");
+}
+else if( i < 4);
+{
+output("hello");
+}
+else
+{
+output("hello");
+}

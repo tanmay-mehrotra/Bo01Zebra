@@ -1,0 +1,7 @@
+truthtable t[2];
+bit bt;
+string a;
+a="A";
+string b;
+string c[3];
+c[0] = "A";

@@ -1,0 +1,5 @@
+int a;
+a=5;
+bit x,y;
+bexp b;
+b=x or y;

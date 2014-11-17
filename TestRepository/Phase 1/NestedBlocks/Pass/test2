@@ -1,0 +1,34 @@
+int i,a,s;
+while (i<3)
+{
+	a=2+3;
+	int b;
+	if (a==2)
+	{
+		int d,c;
+		while(d!=3) 
+		{
+			output("good");
+		}
+	}
+i = i + 1;
+}
+
+if (i<4)
+{
+a=3;
+int v;
+if (a==4)
+{
+int b,d;
+b=4;
+if(d!=6)
+{
+s=3;
+if (F)
+{
+output("d");
+}
+}
+}
+}

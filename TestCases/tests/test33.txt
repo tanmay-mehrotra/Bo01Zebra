@@ -1,0 +1,7 @@
+truthtable t;
+bit bt;
+string a="A";
+string b="A".0;
+string c=b.t[1];
+string d=c.t@1[i][j];
+e=d.bt;

@@ -1,0 +1,8 @@
+truthtable t[2];
+truthtable th[2];
+th=t@T;
+string s[1];
+string bexpression;
+bexpression=s.th;
+
+

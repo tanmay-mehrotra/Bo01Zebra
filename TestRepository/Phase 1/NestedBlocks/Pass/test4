@@ -1,0 +1,34 @@
+int t;
+if(t==4)
+{
+	if(t==3) 
+	{
+		if(t==2)
+		{
+			if(t==1)
+			{
+				output("yes !!!!");
+			}
+			else 
+			{
+				output("no !!!!");
+			}
+		}
+		
+		else
+		{
+			output("no !!!!");
+		}
+			
+	}
+	else
+	{
+		output("no !!!!");
+	}
+}
+else 
+{
+	output("no !!!!");
+}
+
+

@@ -1,0 +1,19 @@
+int x;
+x =10;
+output("x in main "+x);
+if(T)
+{
+int x;
+output("x in if "+x);
+}
+else
+{
+int x;
+x = 30;
+output("x in else "+x);
+
+}
+
+
+output("x in main again "+x);
+

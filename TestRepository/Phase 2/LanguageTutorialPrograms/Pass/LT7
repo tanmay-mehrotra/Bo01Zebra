@@ -1,0 +1,16 @@
+bexp be;
+bit C, D,E;
+int num, i;
+be = C and D or E;
+num = countVariables(be);
+truthtable t1[be];
+truthtable t2[num];
+string arr[num];
+arr = nameOfVariables(be);
+output(t1);
+t2 = t1@T;
+output(t2);
+string sop;
+sop = arr.t1;
+output(sop);
+

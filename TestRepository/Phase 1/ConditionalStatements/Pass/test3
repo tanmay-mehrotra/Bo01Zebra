@@ -1,0 +1,15 @@
+int i;
+i = 7;
+if(i < 6)
+{
+output("hello");
+}
+else
+{
+
+if(i < 8)
+{
+output("hello");
+}
+
+}

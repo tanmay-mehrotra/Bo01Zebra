@@ -1,0 +1,37 @@
+kmap k[2][4];
+kmap kinit;
+kinit=initKmap(k);
+kmap kfv;
+kfv=flipVertical(kinit);
+output(kfv);
+
+
+
+
+func kmap initKmap(kmap k){
+
+int rsize;
+rsize=rowSize(k);
+int csize;
+csize=columnSize(k);
+int i;
+int j;
+
+while(i<rsize){
+   j=0;
+   while(j<csize){
+   bit b;
+   b=input();
+   k[i][j]=b;
+   j=j+1; 
+  }
+  
+  i=i+1; 
+}
+
+return k;
+
+}
+
+
+

@@ -1,0 +1,10 @@
+int a;
+func void add(int c,int d) {
+int n;
+n=c+d;
+	if(n>10) {
+		return n;
+		}
+return m;
+}
+	

@@ -1,0 +1,7 @@
+int x;
+x =5;
+if (x == 5)
+{
+output("hi");
+//no space must be allowed after output
+}

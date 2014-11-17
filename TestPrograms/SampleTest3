@@ -1,0 +1,15 @@
+int a;
+truthtable t[3];
+kmap k_map;
+int i;
+i = 0;
+while (i < a)
+{
+t[i] = T;
+}
+k_map = (kmap)t;
+kmap k1;
+k1 = flipVertical(k_map);
+kmap k2;
+k2 = flipHorizontal(k_map);
+output(k2);

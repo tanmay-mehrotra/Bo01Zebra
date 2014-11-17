@@ -1,0 +1,13 @@
+int a ,d,r,s;
+if(a==3) {
+d=2;
+}
+else 
+{
+if (r>6)
+{
+output("Nested");
+}
+
+s=2;
+}

@@ -1,0 +1,12 @@
+if(a==3) {
+d=2;
+}
+else 
+{
+if (r>6)
+{
+output('Nestd');
+}
+
+s=2;
+}

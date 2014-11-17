@@ -1,0 +1,11 @@
+bexp be;
+bit A,B;
+be = (A and B);
+truthtable t[2];
+t[0] = T;
+t[1] = T;
+t[2] = F;
+t[3] = T;
+bit m;
+m = compare(t, be);
+output(m);

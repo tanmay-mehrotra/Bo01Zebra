@@ -1,0 +1,2 @@
+bexp b='sf',c='rer';
+bexp a=b+c+'er';

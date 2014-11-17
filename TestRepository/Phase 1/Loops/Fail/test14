@@ -1,0 +1,6 @@
+bit a;
+a = T;
+while(a);
+{
+output("hello");
+}

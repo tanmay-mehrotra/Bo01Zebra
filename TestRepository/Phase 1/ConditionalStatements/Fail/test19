@@ -1,0 +1,35 @@
+int i;
+i = 10;
+int i;
+i = 20;
+if( i < 4)
+{
+
+	if(3 < 2)
+	{
+	output("hello");
+	
+	}
+
+	else if( 7 >6)
+	{
+	output("hello");
+
+	}
+
+	else
+	{
+	output("hello");
+
+	}
+
+}
+else if(i >4)
+{
+output("hello");
+}
+
+else
+{
+output("hello");
+}

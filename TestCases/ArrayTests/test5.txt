@@ -1,0 +1,19 @@
+func int min (int x,int y)
+{
+if (x<y)
+{
+return x;
+}
+else 
+{
+return y;
+}
+}
+
+int a[4];
+int x,y;
+x=1;
+y=2;
+
+a[min(x,y)]=5;
+

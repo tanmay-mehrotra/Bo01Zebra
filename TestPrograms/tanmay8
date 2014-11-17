@@ -1,0 +1,26 @@
+bexp be;
+bit C, D;
+int num, i;
+be = C and D;
+num = countVariables(be);
+truthtable t1[num];
+truthtable t2[num];
+string arr[num];
+arr = nameOfVariables(be);
+while (i < size(t1)) {
+if(i%2==0) {
+if(i==2) {
+t1[i]=T;
+}
+else {
+t1[i]=F;
+}
+}
+else {
+t1[i]=F;
+}
+}
+t2 = t1 @T;
+string sop;
+sop = arr.t;
+output(sop)

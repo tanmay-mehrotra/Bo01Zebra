@@ -1,0 +1,9 @@
+bit a,b,c;
+a=b and c;
+a=b or c;
+a=b xor c;
+a=b xnor c;
+a=b nand c;
+a=b nor c;
+a=a xor b and c nor 1 or 0;
+b=not b;

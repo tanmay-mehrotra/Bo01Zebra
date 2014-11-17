@@ -1,0 +1,9 @@
+truthtable t2[3];
+int tsize;
+int i;
+tsize=size(t2);
+while(i < tsize) {
+t2[i] = input();
+i=i+1;
+}
+output(t2);

@@ -1,0 +1,11 @@
+int i,a,s,j;
+int b[5];
+int d[5];
+int f[5];
+i=b[a];
+s=i+j;
+d[4]=5;
+int e;
+g=f[i+j];
+
+

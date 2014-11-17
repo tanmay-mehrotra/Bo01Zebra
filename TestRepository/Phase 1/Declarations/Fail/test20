@@ -1,0 +1,8 @@
+truthtable t[2];
+t[0] = F;
+t[1] = F;
+t[2] = F;
+t[3] = T;
+kmap k;
+k= (kmap)t;
+truthtable[k];

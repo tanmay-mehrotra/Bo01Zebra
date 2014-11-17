@@ -1,0 +1,14 @@
+int i;
+int j;
+j = 3;
+int x;
+x = 10;
+while(i < j)
+{
+
+x = 30;
+output("x in while is "+x);
+i = i + 1;
+}
+
+output("x in main "+x);

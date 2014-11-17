@@ -1,0 +1,12 @@
+int a;
+a=1;
+while(a>5) {
+	int b;
+	b=1;
+		if(a==1) {
+			int c; 
+			output("hello");
+			}
+	int d;
+	d=1;
+	}

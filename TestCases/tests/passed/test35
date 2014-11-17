@@ -1,0 +1,4 @@
+if(i < 0)
+	output("Nandita");
+else
+	output("Snigdha");

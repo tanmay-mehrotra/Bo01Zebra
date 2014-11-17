@@ -1,0 +1,13 @@
+int a;
+truthtable t[3];
+t[0] = T;
+t[1] = T;
+t[2] = T;
+t[3] = F;
+t[4] = T;
+t[5] = F;
+t[6] = T;
+t[7] = F;
+kmap k_map;
+k_map = (kmap)t;
+output(k_map);

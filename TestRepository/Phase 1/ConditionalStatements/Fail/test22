@@ -1,0 +1,6 @@
+int i;
+i = 0;
+if(i = 5)
+{
+output("hello");
+}

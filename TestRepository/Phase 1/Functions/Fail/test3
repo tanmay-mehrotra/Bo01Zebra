@@ -1,0 +1,21 @@
+func string fu(int f,string g,int h)
+{
+int a;
+a=3;
+return a;
+}
+
+int a,b,c,h,f;
+a =4;
+b = 9;
+if (a>3 && b==9 || c!=3)
+{
+int x,y,z;
+string g;
+x=3;
+output("Testing");
+y=3;
+fu(f,g,h);
+
+}
+

@@ -1,0 +1,23 @@
+func int div(int a,int b)
+{
+	int c;
+	c=a/b;
+	return c;
+}
+int x;
+int y;
+int result;
+result=div(x,y);
+div(x,y);
+//output("Hello");
+int t[3];
+t[0]=1;
+truthtable th[5];
+th[3]=0;
+bit g;
+g=F;
+bexp bx;
+kmap k;
+k=(kmap)th;
+string s[4];
+

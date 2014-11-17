@@ -1,0 +1,3 @@
+bexp b1,b2;
+bit A, B;
+b1=A and B;

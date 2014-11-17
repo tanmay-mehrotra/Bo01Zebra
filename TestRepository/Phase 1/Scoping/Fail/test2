@@ -1,0 +1,21 @@
+int x;
+x =10;
+output("x in main "+x);
+if(T)
+{
+
+output("x in if "+x);
+//Can access a variable declared outside in this scope
+
+int a;
+a =5;
+}
+else
+{
+x = 30;
+output("x in else "+x);
+
+}
+
+output("x in main again "+x);
+output("a in main "+a); // Cannot access an inner scope variable outside

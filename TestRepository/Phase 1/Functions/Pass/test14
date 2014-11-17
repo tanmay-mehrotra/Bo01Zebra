@@ -1,0 +1,20 @@
+int b;
+b=4;
+bit a,q;
+a=T;
+
+func string snigdha()
+{
+truthtable t[2];
+string s;
+string s1[2];
+s1[0] = "A";
+s1[1] = "B";
+s = s1.t;
+return s;
+}
+
+bexp x;
+x=(a and q);
+
+

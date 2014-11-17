@@ -1,0 +1,38 @@
+int r;
+int a[2+3-4*5%6][u];
+int d;
+int x[2+3-4];
+
+if (sg==2)
+{
+dg=f+3;
+d=r;
+int p[2+3-4*5/6%7][2];
+df(5,7);
+int x[j];
+}
+else
+{
+dii=si;
+a=size(3);
+int y[2+3-4*5/6%7][f+2];
+int x[2+3-4][1+2];
+}
+
+do
+{
+int a;
+df(d,h);
+int p[2+3-4*5/6%7];
+a=3;
+int x[2+3-4][a];
+} while(r!=3 || 4<3 && 2>=4);
+
+
+if (di<6)
+{
+int r,s;
+int p[2+3-4*5/6%7];
+a(7,8);
+sn=9;
+}

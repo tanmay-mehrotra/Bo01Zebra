@@ -1,0 +1,14 @@
+int a;
+
+while (a<4)
+{
+int a;
+}
+
+func string add (bit f)
+{
+int g;
+return g ;
+}
+
+f=3;

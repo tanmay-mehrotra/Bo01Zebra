@@ -1,0 +1,24 @@
+int r;
+int a[2+3-4*5%6];
+int d;
+int x[2+3-4];
+int sg,dg,dii,di,si,sn;
+if (sg==2)
+{
+dg=3;
+int p[2+3-4*5/6%7];
+int x1[2+3-4];
+}
+else
+{
+dii=si;
+int y[2+3-4*5/6%7];
+int x2[2+3-4];
+}
+
+if (di<6)
+{
+int s;
+int p[2+3-4*5/6%7];
+sn=9;
+}

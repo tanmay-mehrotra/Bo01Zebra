@@ -1,0 +1,9 @@
+int a,b,c;
+bit A,B;
+bexp be;
+
+b = 5;
+c = 10;
+a = b + c;
+
+be = A xnor B;
